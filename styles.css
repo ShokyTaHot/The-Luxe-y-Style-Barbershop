@@ -933,6 +933,37 @@ textarea { resize: vertical; min-height: 80px; }
    ============================================================ */
 .gallery { padding: 5.5rem 0; background: var(--bg-2); }
 
+.gallery-coming-soon {
+  text-align: center;
+  padding: 4rem 2rem;
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 4px;
+  background: rgba(201,168,76,0.03);
+  margin-top: 2.5rem;
+}
+.coming-icon {
+  font-size: 3rem;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+  display: block;
+}
+.coming-text {
+  font-family: var(--font-head);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: var(--cream);
+  margin: 0 0 1rem;
+}
+.coming-text em { color: var(--gold); font-style: italic; }
+.coming-sub {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: rgba(240,232,213,0.6);
+  max-width: 480px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+.coming-sub strong { color: var(--gold); }
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
