@@ -1,0 +1,56 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="tArc" d="M 18,100 A 82,82 0 0,1 182,100"/>
+    <path id="bArc" d="M 18,102 A 82,82 0 0,0 182,102"/>
+  </defs>
+  <!-- Outer dark ring -->
+  <circle cx="100" cy="100" r="97" fill="#2B1A0D"/>
+  <!-- Thin outer border -->
+  <circle cx="100" cy="100" r="97" stroke="#C4995A" stroke-width="2.5" fill="none"/>
+  <!-- Inner tan fill -->
+  <circle cx="100" cy="100" r="86" fill="#C4995A"/>
+  <!-- Inner dark ring border -->
+  <circle cx="100" cy="100" r="86" stroke="#2B1A0D" stroke-width="2" fill="none"/>
+  <!-- Inner circle separator -->
+  <circle cx="100" cy="100" r="72" stroke="#2B1A0D" stroke-width="1.2" fill="none" stroke-dasharray="2 2"/>
+
+  <!-- TOP TEXT: THE LUXE & STYLE -->
+  <text font-family="Montserrat,Arial,sans-serif" font-weight="800" font-size="12" fill="#2B1A0D" letter-spacing="2">
+    <textPath href="#tArc" startOffset="50%" text-anchor="middle">THE LUXE &amp; STYLE</textPath>
+  </text>
+  <!-- BOTTOM TEXT: BARBERSHOP -->
+  <text font-family="Montserrat,Arial,sans-serif" font-weight="800" font-size="13.5" fill="#2B1A0D" letter-spacing="4.5">
+    <textPath href="#bArc" startOffset="50%" text-anchor="middle">BARBERSHOP</textPath>
+  </text>
+
+  <!-- Stars -->
+  <text x="22" y="105" fill="#2B1A0D" font-size="13" text-anchor="middle" font-family="serif">★</text>
+  <text x="178" y="105" fill="#2B1A0D" font-size="13" text-anchor="middle" font-family="serif">★</text>
+
+  <!-- EST. / 2024 -->
+  <text x="66" y="76" fill="#2B1A0D" font-size="8" font-family="Montserrat,sans-serif" font-weight="700" letter-spacing="1" text-anchor="middle">EST.</text>
+  <text x="134" y="76" fill="#2B1A0D" font-size="8" font-family="Montserrat,sans-serif" font-weight="700" letter-spacing="1" text-anchor="middle">2024</text>
+  <!-- EST divider dots -->
+  <circle cx="90" cy="73" r="1.5" fill="#2B1A0D" opacity="0.6"/>
+  <circle cx="110" cy="73" r="1.5" fill="#2B1A0D" opacity="0.6"/>
+
+  <!-- MAN SILHOUETTE — profile facing right, detailed -->
+  <!-- Hair swept back and up -->
+  <path d="M75 88 C73 72 76 62 82 56 C86 51 92 49 97 50 C106 52 112 58 114 66 C116 74 113 82 110 88" fill="#2B1A0D"/>
+  <!-- Hair detail top wave -->
+  <path d="M82 56 C85 48 92 44 98 47 C105 50 110 57 112 64 C108 58 102 53 96 52 C90 51 85 54 82 56Z" fill="#3D2510"/>
+  <!-- Head/face oval -->
+  <ellipse cx="93" cy="91" rx="18" ry="22" fill="#2B1A0D"/>
+  <!-- Ear -->
+  <ellipse cx="111" cy="92" rx="4.5" ry="6" fill="#2B1A0D"/>
+  <!-- Neck -->
+  <rect x="86" y="111" width="14" height="10" rx="3" fill="#2B1A0D"/>
+  <!-- Shoulders hint -->
+  <path d="M70 128 C70 120 80 116 93 116 C106 116 116 120 116 128" fill="#2B1A0D"/>
+  <!-- Beard -->
+  <path d="M75 96 C74 108 78 118 86 122 C89 124 97 124 100 122 C108 118 112 108 111 96 C108 102 104 110 93 112 C82 110 78 102 75 96Z" fill="#2B1A0D"/>
+  <!-- Beard texture line -->
+  <path d="M80 100 C82 107 86 112 93 113" stroke="#3D2510" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <!-- Mustache -->
+  <path d="M83 99 C86 97 90 96 93 97 C96 96 100 97 103 99 C100 101 96 101 93 100 C90 101 86 101 83 99Z" fill="#3D2510" opacity="0.7"/>
+</svg>

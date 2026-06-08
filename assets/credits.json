@@ -1,0 +1,35 @@
+{
+  "about": {
+    "src": "assets/img/about.jpg",
+    "title": "250626-N-HX510-2001",
+    "creator": "United States Naval Academy Photo Archive",
+    "creator_url": "https://www.flickr.com/photos/49251707@N07",
+    "license": "pdm",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/49251707@N07/54617756499",
+    "source": "flickr"
+  },
+  "services": {
+    "src": "assets/img/services.jpg",
+    "title": "Hair Cut",
+    "creator": "Candace McDaniel",
+    "creator_url": "https://stocksnap.io/author/133875",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/hair-cut-ASMG0XOU6M",
+    "source": "stocksnap"
+  },
+  "hero": {
+    "src": "assets/img/hero.jpg",
+    "title": "Hair cutting through the narrow door.",
+    "creator": "Neil. Moralee",
+    "creator_url": "https://www.flickr.com/photos/62586117@N05",
+    "license": "by-nc-nd",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/62586117@N05/51659762115",
+    "source": "flickr"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "luxe-barbershop",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-ExecutionPolicy", "Bypass", "-File", "tools/server.ps1"],
+      "port": 8765
+    }
+  ]
+}
